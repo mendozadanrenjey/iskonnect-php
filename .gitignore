@@ -1,0 +1,9 @@
+.env
+/vendor/
+/public/uploads/*
+!/public/uploads/profiles/
+/public/uploads/profiles/*
+!/public/uploads/profiles/.htaccess
+/storage/organization-files/
+/storage/organization-officers/
+*.log
