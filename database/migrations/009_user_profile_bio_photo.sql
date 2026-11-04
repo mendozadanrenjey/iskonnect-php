@@ -1,0 +1,3 @@
+ALTER TABLE users
+  ADD COLUMN bio VARCHAR(500) NULL AFTER year_level,
+  ADD COLUMN profile_photo VARCHAR(255) NULL AFTER bio;
