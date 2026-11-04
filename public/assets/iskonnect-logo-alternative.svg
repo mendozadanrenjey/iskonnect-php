@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 96" role="img" aria-labelledby="title desc">
+  <title id="title">ISKOnnect — BulSU Bustos Campus</title>
+  <desc id="desc">Three student voices join above an open book beside the ISKOnnect wordmark.</desc>
+  <g transform="translate(3 4)" fill="none" stroke="#176B45" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 25Q44 4 64 25"/>
+    <path d="M24 31 31 39M64 31 57 39M44 23v22"/>
+    <path d="M11 47c12-4 23-1 33 6 10-7 21-10 33-6v24c-12-4-23-1-33 7-10-8-21-11-33-7z"/>
+  </g>
+  <g transform="translate(3 4)" fill="#176B45">
+    <circle cx="24" cy="25" r="5.5"/>
+    <circle cx="64" cy="25" r="5.5"/>
+  </g>
+  <circle cx="47" cy="20" r="6.5" fill="#F2C94C" stroke="#fff" stroke-width="2.5"/>
+  <path d="M47 57v25" fill="none" stroke="#F2C94C" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="101" y="52" font-family="Aptos, Arial, sans-serif" font-size="36" font-weight="750" letter-spacing="-1.2">
+    <tspan fill="#145A3A">ISK</tspan><tspan fill="#F2C94C">O</tspan><tspan fill="#145A3A">nnect</tspan>
+  </text>
+  <text x="103" y="76" fill="#587266" font-family="Aptos, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.2">BULSU BUSTOS CAMPUS</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" role="img" aria-labelledby="title desc">
+  <title id="title">ISKOnnect alternative symbol</title>
+  <desc id="desc">Three student voices connect above an open book, joined by a yellow center seam.</desc>
+  <g fill="none" stroke="#176B45" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 25Q44 4 64 25"/>
+    <path d="M24 31 31 39M64 31 57 39M44 23v22"/>
+    <path d="M11 47c12-4 23-1 33 6 10-7 21-10 33-6v24c-12-4-23-1-33 7-10-8-21-11-33-7z"/>
+  </g>
+  <g fill="#176B45">
+    <circle cx="24" cy="25" r="5.5"/>
+    <circle cx="64" cy="25" r="5.5"/>
+  </g>
+  <circle cx="44" cy="16" r="6.5" fill="#F2C94C" stroke="#fff" stroke-width="2.5"/>
+  <path d="M44 53v25" fill="none" stroke="#F2C94C" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

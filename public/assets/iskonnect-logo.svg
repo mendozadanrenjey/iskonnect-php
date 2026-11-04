@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 88" role="img" aria-labelledby="title desc">
+  <title id="title">ISKOnnect — BulSU Bustos Campus</title>
+  <desc id="desc">Three green student nodes connect to a shared yellow hub beside the ISKOnnect wordmark.</desc>
+  <g transform="translate(1 4)" fill="none" stroke="#176B45" stroke-width="4.5" stroke-linecap="round">
+    <path d="M40 40V13M40 40 16.6 53.5M40 40l23.4 13.5"/>
+  </g>
+  <g transform="translate(1 4)" fill="#176B45">
+    <circle cx="40" cy="13" r="7.5"/>
+    <circle cx="16.6" cy="53.5" r="7.5"/>
+    <circle cx="63.4" cy="53.5" r="7.5"/>
+  </g>
+  <circle cx="41" cy="44" r="10.5" fill="#F2C94C" stroke="#fff" stroke-width="3.5"/>
+  <text x="87" y="48" fill="#145A3A" font-family="Aptos, Arial, sans-serif" font-size="34" font-weight="750" letter-spacing="-1.1">ISKOnnect</text>
+  <text x="89" y="70" fill="#587266" font-family="Aptos, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.2">BULSU BUSTOS CAMPUS</text>
+</svg>
