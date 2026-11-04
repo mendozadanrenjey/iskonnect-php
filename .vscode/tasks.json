@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ISKOnnect: Start PHP site",
+      "type": "shell",
+      "command": "C:\\xampp\\php\\php.exe",
+      "args": ["-S", "localhost:8080", "-t", "public"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".+",
+          "endsPattern": "Development Server \\(http://localhost:8080\\) started"
+        }
+      },
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "ISKOnnect: Create officer account",
+      "type": "shell",
+      "command": "C:\\xampp\\php\\php.exe",
+      "args": ["bin/create_officer.php"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true }
+    },
+    {
+      "label": "ISKOnnect: Create local student council account",
+      "type": "shell",
+      "command": "C:\\xampp\\php\\php.exe",
+      "args": ["bin/create_council.php"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true }
+    },
+    {
+      "label": "ISKOnnect: Initialize database",
+      "type": "shell",
+      "command": "C:\\xampp\\php\\php.exe",
+      "args": ["bin/init_db.php"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true }
+    },
+    {
+      "label": "ISKOnnect: Check PHP syntax",
+      "type": "shell",
+      "command": "C:\\xampp\\php\\php.exe",
+      "args": ["-l", "public/index.php"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}
